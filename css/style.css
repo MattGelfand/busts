@@ -109,6 +109,14 @@ NORMALIZE.css
 	.player-info {
 		width: 700px;
 		height: 700px;
+		display: block;
+		content: "";
+		cursor: pointer;
+		font-size: 40px;
+		-webkit-transform:rotate(-180deg); 
+		border-style: solid;
+		border-width: 700px 700px 0 0;
+		opacity: .9;
 
 		-webkit-transition: .75s ease-in-out;
 		-moz-transition: .75s ease-in-out;
@@ -121,16 +129,12 @@ NORMALIZE.css
 		padding: 3.2em 0 0 2.4em;
 	}
 
-	.player-info:after {
-		display: block;
-		content: "";
-		cursor: pointer;
-		font-size: 40px;
-		-webkit-transform:rotate(-180deg); 
-		border-style: solid;
-		border-width: 700px 700px 0 0;
+	.player-info-bengals {
 		border-color: transparent #FB4F14 transparent transparent;
-		opacity: .9;
+	}
+
+	.player-info-niners {
+		border-color: transparent #AF1E2C transparent transparent;
 	}
 
 
